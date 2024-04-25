@@ -31,6 +31,31 @@ const restaurant = {
     },
   },
 };
+// //Maps iteration -------------------------
+// const question = new Map([
+//   ['question', 'What is the best programming language in the world?'],
+//   [1, 'C'],
+//   [2, 'Java'],
+//   [3, 'javascript'],
+//   ['correct', 3],
+//   [true, 'Correct'],
+//   [false, 'try again'],
+// ]);
+// console.log(question);
+// console.log(Object.entries(restaurant.openingHours));
+// const hoursMap = new Map(Object.entries(restaurant.openingHours));
+// console.log(hoursMap);
+// //quiz app
+// console.log(question.get('question'));
+// for (const [key, value] of question) {
+//   if (typeof key === 'number') console.log(`Answer ${key}: ${value}`);
+// }
+
+// const answer = Number(prompt('Your answer'));
+// console.log(answer);
+// console.log(question.get(question.get('correct') === answer));
+// //Convert map to array
+// console.log([...question]);
 
 // // SETS ---------------------------------------------------
 // // a collection of unique elements
